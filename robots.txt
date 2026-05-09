@@ -1,0 +1,39 @@
+# Robots.txt for Aditya Singh's Portfolio
+# Last Updated: 2026-05-09
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+
+# Crawl delay settings
+Crawl-delay: 1
+
+# Request rate
+Request-rate: 30/1m
+
+# Sitemaps
+Sitemap: https://adityasinnghh.me/sitemap.xml
+Sitemap: https://adityasinnghh.github.io/sitemap.xml
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: DotBot
+Disallow: /
